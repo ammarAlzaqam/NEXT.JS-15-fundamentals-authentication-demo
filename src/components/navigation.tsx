@@ -17,6 +17,10 @@ export default function Navigation() {
               Next.js App
             </h1>
           </div>
+          <div className="flex gap-5">
+            <Link href="/dashboard">Dashboard</Link>
+            <Link href="/admin">Admin</Link>
+          </div>
           <div className="flex items-center gap-4">
             <SignedIn>
               <Link href="user-profile">Profile</Link>
